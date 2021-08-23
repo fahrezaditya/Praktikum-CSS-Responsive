@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=divice-width, initial-scale=1.0">
+        <title>Template</title>
+        <style>
+            *{box-sizing: border-box;}
+            [class*="col-"]{
+                padding: 15px;
+                float: left;
+                width: 100%;
+            }
+            .header{
+                background: url(../File\ Responsive/logo-putih.png) #5e0001 no-repeat center;
+                background-size: 150px 150px;
+                height: 200px;
+            }
+
+            @media only screen and (min-width: 600px){
+                /*untuk tablet*/
+                .col-s-1{width: 8.33%;}
+                .col-s-2{width: 16.66%;}
+                .col-s-3{width: 25%;}
+                .col-s-4{width: 33.33%;}
+                .col-s-5{width: 41.66%;}
+                .col-s-6{width: 50%;}
+                .col-s-7{width: 58.33%;}
+                .col-s-8{width: 66.66%;}
+                .col-s-9{width: 75%;}
+                .col-s-10{width: 83.33%;}
+                .col-s-11{width: 91.66%;}
+                .col-s-12{width: 100%;}
+                .header{background: url(../File\ Responsive/logo-putih.png)#5e0001 no-repeat center;
+                    background-size: 150px 150px;
+                    height: 200px;}
+            }
+            @media only screen and (min-width: 768px){
+                /*untuk dekstop*/
+                .col-1{width: 8.33%;}
+                .col-2{width: 16.66%;}
+                .col-3{width: 25%;}
+                .col-4{width: 33.33%;}
+                .col-5{width: 41.66%;}
+                .col-6{width: 50%;}
+                .col-7{width: 58.33%;}
+                .col-8{width: 66.66%;}
+                .col-9{width: 75%;}
+                .col-10{width: 83.33%;}
+                .col-11{width: 91.66%;}
+                .col-12{width: 100%;}
+                .header{background: url(../File\ Responsive/logo-putih.png) #5e0001 no-repeat center;
+                    background-size: 150px 150px;
+                    height: 200px;}
+            }
+            .container{
+                width: 80%;
+                margin: 0 auto;
+            }
+            .sidebar ul{
+                list-style-type: none;
+                padding: 0;
+                margin: 0;
+                overflow: hidden;
+                background: red;
+            }
+            .sidebar ul li{
+                float: left;
+                width: 100%;
+                border-bottom: 2px solid #5e0001;
+            }
+            .sidebar ul li a{
+                display: block;
+                text-decoration: none;
+                color: #fff;
+                padding: 15px;
+                text-align: left;
+            }
+            .content{ text-align: justify;}
+            .footer{ background: #5e0001; color: #fff;}
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <!--header mulai-->
+            <div class="col-12 header"></div>
+            <!--akhir header-->
+            <!--awal menu-->
+            <div class="col-3 col-s-5 sidebar">
+                <ul>
+                    <li><a href="#">Beranda</a></li>
+                    <li><a href="#">Profil</a></li>
+                    <li><a href="#">Kontak Kami</a></li>
+                </ul>
+            </div>
+            <!--akhir menu-->
+            <!--awal konten-->
+            <div class="col-9 col-s-7 content">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo laboriosam error provident, vero molestias eligendi odio voluptates illo ducimus, repellendus quisquam? Molestias maiores assumenda quae tempora officia necessitatibus, dolore reprehenderit!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque atque voluptatibus amet quis sit vel fuga quod nemo ut. Debitis, ducimus sed placeat mollitia perspiciatis nesciunt molestias commodi modi quaerat.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. At non sapiente exercitationem consectetur ex aspernatur a saepe, accusamus, itaque quia, soluta deserunt optio nam modi quisquam tenetur eos earum enim.
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis laboriosam non nemo quia minus. Corporis cum error quia, eaque unde dicta ex totam accusamus impedit non nemo dolor quos pariatur.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum magnam vel veniam ipsum, harum quas quam beatae quo atque eaque accusamus nostrum officiis! Iste expedita, vel harum iusto laborum cupiditate?
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde obcaecati expedita, ab libero blanditiis magnam voluptatibus aut repellat magni, accusamus sed. Perspiciatis beatae qui et fugiat magni. Hic, temporibus facere!
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur inventore ut, unde suscipit eveniet, asperiores quisquam nulla quam, officiis quas libero. Similique error magni, ratione eligendi alias necessitatibus asperiores nisi!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, quod fugiat? Expedita quisquam, quis vitae consequatur libero dolores quidem in provident, deleniti minima, explicabo perferendis minus illo natus tempora ducimus.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere praesentium atque iusto nostrum nam expedita perspiciatis, architecto omnis libero perferendis rem ducimus officiis aut ea eos dignissimos beatae eum eligendi?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti explicabo distinctio officia perferendis asperiores itaque amet omnis. Ea non alias minima cumque! Maiores iusto reprehenderit, modi deleniti ex cum vero?
+                </p>
+            </div>
+            <!--akhir konten-->
+            <!--awal footer-->
+            <div class="col-12 footer">
+                &copy; Copyright by Reza
+            </div>
+            <!--akhir footer-->
+        </div>
+    </body>
+</html>
